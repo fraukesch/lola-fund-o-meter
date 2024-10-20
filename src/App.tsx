@@ -9,20 +9,22 @@ function App() {
   const oktPerc = oktSum/4;
   return (
       <Flex m={4} flexDirection='column'>
-        <Heading as='h1' size='lg' mb={2}>Lola fund-o-meter</Heading>
-        <Heading as='h2' size='md'>October</Heading>
-        <Center m={4}>
-            <Box position='relative' width='80%'>
-                <Progress
-                    value={oktPerc}
-                    colorScheme='purple'
-                />
-                <Flex width='100%' justifyContent='space-between' mt={2}>
-                    <Text fontWeight='bold' color='purple.600'>{`${oktSum} €`}</Text>
-                    <Text>400 €</Text>
-                </Flex>
-            </Box>
-        </Center>
+        <Heading as='h1' size='lg' mb={2}>Lola Fund-O-Meter</Heading>
+        <Box shadow='md' borderWidth='1px'>
+            <Heading as='h2' size='md' m={2}>October</Heading>
+            <Center m={4}>
+                <Box position='relative' width='90%' maxWidth='800px'>
+                    <Progress
+                        value={oktPerc}
+                        colorScheme='purple'
+                    />
+                    <Flex width='100%' justifyContent='space-between' mt={2}>
+                        <Text fontWeight='bold' color='purple.600'>{`${oktSum} €`}</Text>
+                        <Text>400 €</Text>
+                    </Flex>
+                </Box>
+            </Center>
+        </Box>
       </Flex>
   )
 }
