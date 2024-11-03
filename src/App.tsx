@@ -11,7 +11,7 @@ function App() {
       <Flex m={4} flexDirection='column'>
         <Heading as='h1' size='lg' mb={2}>Lola Fund-O-Meter</Heading>
         <Month name='October' sum={donations.Oct.reduce((val, acc) => acc + val, 0)} sundays={4} />
-        <Month name='November' sum={donations.Nov.reduce((val, acc) => acc + val, 0)} sundays={4} />
+        <Month name='November' sum={donations.Nov.reduce((val, acc) => acc + val, 0)} sundays={4} wednesdays={4}/>
       </Flex>
   )
 }
