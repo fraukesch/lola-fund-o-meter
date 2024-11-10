@@ -3,7 +3,7 @@ import {Month} from './Month.tsx';
 
 const donations = {
     Oct: [196, 66.50, 89.90, 62.50],
-    Nov: [14.90, 132.60, 111]
+    Nov: [14.90, 132.60, 111, 62]
 }
 
 function App() {
