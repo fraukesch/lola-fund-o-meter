@@ -13,7 +13,7 @@ const donations = {
     Oct: [196, 66.50, 89.90, 62.50],
     Nov: [14.90, 132.60, 111, 62, 74.50, 95, 164, 79.10],
     Dec: [33.10, 175, 55, 138.5, 192, 31.40], // last value is filling the gap to complete funding of fee
-    Jan: [92]
+    Jan: [92, 92]
 }
 
 function App() {
