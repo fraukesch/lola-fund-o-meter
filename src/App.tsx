@@ -45,7 +45,7 @@ function App() {
                     <AccordionIcon/>
                 </AccordionButton>
                 <AccordionPanel>
-                    <Month name='January' sum={donations.Jan.reduce((val, acc) => acc + val, 0)} sundays={6} wednesdays={2}/>
+                    <Month name='January' sum={donations.Jan.reduce((val, acc) => acc + val, 0)} sundays={5} wednesdays={2}/>
                 </AccordionPanel>
             </AccordionItem>
         </Accordion>
