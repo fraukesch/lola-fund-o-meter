@@ -16,6 +16,10 @@ const donations = {
     Jan: [92, 92, 93.3, 68.9]
 }
 
+const round2Decs = (x: number) => Math.round(x * 100) / 100
+
+const accumulateMonth = (values: number[]) => values.reduce((val, acc) => round2Decs(acc + val), 0)
+
 function App() {
   return (
       <Flex m={4} flexDirection='column'>
@@ -31,9 +35,9 @@ function App() {
                     <AccordionIcon />
             </AccordionButton>
                 <AccordionPanel>
-                    <Month name='October' sum={donations.Oct.reduce((val, acc) => acc + val, 0)} sundays={4} />
-                    <Month name='November' sum={donations.Nov.reduce((val, acc) => acc + val, 0)} sundays={4} wednesdays={4}/>
-                    <Month name='December' sum={donations.Dec.reduce((val, acc) => acc + val, 0)} sundays={4} wednesdays={3}/>
+                    <Month name='October' sum={accumulateMonth(donations.Oct)} sundays={4} />
+                    <Month name='November' sum={accumulateMonth(donations.Nov)} sundays={4} wednesdays={4}/>
+                    <Month name='December' sum={accumulateMonth(donations.Dec)} sundays={4} wednesdays={3}/>
                 </AccordionPanel>
             </AccordionItem>
 
@@ -45,7 +49,7 @@ function App() {
                     <AccordionIcon/>
                 </AccordionButton>
                 <AccordionPanel>
-                    <Month name='January' sum={donations.Jan.reduce((val, acc) => acc + val, 0)} sundays={5} wednesdays={2}/>
+                    <Month name='January' sum={accumulateMonth(donations.Jan)} sundays={5} wednesdays={2}/>
                 </AccordionPanel>
             </AccordionItem>
         </Accordion>
