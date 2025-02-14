@@ -34,7 +34,7 @@ function App() {
 
             <Year year='2025'>
                 <Month name='January' sum={accumulateMonth(donations.Jan)} sundays={5} wednesdays={2}/>
-                <Month name='Febuary' sum={accumulateMonth(donations.Feb)} sundays={4} wednesdays={4}/>
+                <Month name='Febuary' sum={accumulateMonth(donations.Feb)} sundays={3} wednesdays={4}/>
             </Year>
 
         </Accordion>
