@@ -11,7 +11,7 @@ const donations = {
     Nov: [14.90, 132.60, 111, 62, 74.50, 95, 164, 79.10],
     Dec: [33.10, 175, 55, 138.5, 192, 31.40], // last value is filling the gap to complete funding of fee
     Jan: [92, 92, 93.3, 68.9, 95.2, 96.7, 105],
-    Feb: [98, 100, 97, 200],
+    Feb: [98, 100, 97, 200, 104],
 }
 
 const round2Decs = (x: number) => Math.round(x * 100) / 100
