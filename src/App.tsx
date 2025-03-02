@@ -12,6 +12,7 @@ const donations = {
     Dec: [33.10, 175, 55, 138.5, 192, 31.40], // last value is filling the gap to complete funding of fee
     Jan: [92, 92, 93.3, 68.9, 95.2, 96.7, 105],
     Feb: [98, 100, 97, 200, 104],
+    Mar: [74, 141],
 }
 
 const round2Decs = (x: number) => Math.round(x * 100) / 100
@@ -35,6 +36,7 @@ function App() {
             <Year year='2025'>
                 <Month name='January' sum={accumulateMonth(donations.Jan)} sundays={5} wednesdays={2}/>
                 <Month name='Febuary' sum={accumulateMonth(donations.Feb)} sundays={3} wednesdays={3}/>
+                <Month name='March' sum={accumulateMonth(donations.Mar)} sundays={5} wednesdays={4}/>
             </Year>
 
         </Accordion>
