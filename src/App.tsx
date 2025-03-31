@@ -12,7 +12,13 @@ const donations = {
     Dec: [33.10, 175, 55, 138.5, 192, 31.40], // last value is filling the gap to complete funding of fee
     Jan: [92, 92, 93.3, 68.9, 95.2, 96.7, 105],
     Feb: [98, 100, 97, 200, 104],
-    Mar: [74, 141, 73, 95.08, 45.2, 109, 160.2, 88.21],
+    Mar: [
+        74, // transferred plus from Feb
+        141, 73, 95.08, 45.2, 109, 160.2, 88.21, 117
+    ],
+    Apr: [
+        102.69, // transferred plus from Mar
+    ],
 }
 
 const round2Decs = (x: number) => Math.round(x * 100) / 100
@@ -37,6 +43,7 @@ function App() {
                 <Month name='January' sum={accumulateMonth(donations.Jan)} sundays={5} wednesdays={2}/>
                 <Month name='Febuary' sum={accumulateMonth(donations.Feb)} sundays={3} wednesdays={3}/>
                 <Month name='March' sum={accumulateMonth(donations.Mar)} sundays={5} wednesdays={4}/>
+                <Month name='April' sum={accumulateMonth(donations.Apr)} sundays={4} wednesdays={4} pricePerHour={72}/>
             </Year>
 
         </Accordion>
