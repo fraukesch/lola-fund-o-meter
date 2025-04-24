@@ -23,6 +23,7 @@ const donations = {
             102.69, // transferred plus from Mar
             310,
             106.42,
+            63,
         ],
     }
 }
