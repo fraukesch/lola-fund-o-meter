@@ -29,7 +29,7 @@ const donations = {
             71,
         ],
         May: [
-            13.01,  // transferred plus from Apr
+            5.01,  // transferred plus from Apr
             77,
             71.2,
         ],
