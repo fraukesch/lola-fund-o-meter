@@ -33,6 +33,8 @@ const donations = {
             77,
             71.2,
             120,
+            51.5,
+            120, // from Felix and Frauke 
         ],
     }
 }
