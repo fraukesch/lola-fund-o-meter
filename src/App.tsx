@@ -40,7 +40,9 @@ const donations = {
             40,
             171.8,
         ],
-        Jun: [],
+        Jun: [
+            131
+        ],
     }
 }
 
