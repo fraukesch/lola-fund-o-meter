@@ -43,6 +43,8 @@ const donations = {
         Jun: [
             131,
             86,
+            127,
+            100, // from Felix and Frauke
         ],
     }
 }
