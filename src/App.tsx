@@ -52,6 +52,7 @@ const donations = {
             178.1, // cash
             28.08, // plus from June
             100, // from Felix and Frauke
+            12, // PayPal on Wednesday 
         ],
     }
 }
