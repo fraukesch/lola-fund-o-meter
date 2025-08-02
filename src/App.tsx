@@ -50,6 +50,7 @@ const donations = {
         ],
         Jul: [
             178.1, // cash
+            28.08, // plus from June
             100, // from Felix and Frauke
         ],
     }
