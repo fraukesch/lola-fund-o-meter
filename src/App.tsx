@@ -99,7 +99,7 @@ function App() {
                 <Month name='June' sum={accumulateMonth(donations['2025'].Jun)} sundays={5} pricePerHour={72}/>
                 <Month name='July' sum={accumulateMonth(donations['2025'].Jul)} sundays={4} pricePerHour={72}/>
                 <Month name='August' sum={accumulateMonth(donations['2025'].Aug)} sundays={9} pricePerHour={72}/>
-                <Month name='September' sum={accumulateMonth(donations['2025'].Sep) sundays={4} wednesdays={4} pricePerHour={90}/>
+                <Month name='September' sum={accumulateMonth(donations['2025'].Sep)} sundays={4} wednesdays={4} pricePerHour={90}/>
             </Year>
 
         </Accordion>
