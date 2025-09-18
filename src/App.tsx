@@ -67,7 +67,8 @@ const donations = {
             112.5,
         ],
         Sep: [
-            8.43, // plus from Aug minus deficit from July
+            8.43, // plus from Aug minus deficit from July,
+            397.5,
         ],
     }
 }
