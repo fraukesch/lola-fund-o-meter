@@ -69,6 +69,8 @@ const donations = {
         Sep: [
             8.43, // plus from Aug minus deficit from July,
             397.5,
+            346.98, // First two Sundays
+            236.70
         ],
     }
 }
