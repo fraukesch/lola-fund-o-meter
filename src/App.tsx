@@ -72,6 +72,9 @@ const donations = {
             348.98, // First two Sundays
             236.70,
             143.9,
+            126.6,
+            40, // from Felix
+            50, // from Frauke 
         ],
     }
 }
