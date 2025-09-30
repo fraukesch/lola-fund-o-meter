@@ -76,7 +76,7 @@ const donations = {
             40, // from Felix
             50, // from Frauke 
         ],
-        Okt: [
+        Oct: [
             92.11, // plus from Sep
         ],
     }
