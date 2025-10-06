@@ -78,6 +78,7 @@ const donations = {
         ],
         Oct: [
             92.11, // plus from Sep
+            241.6,
         ],
     }
 }
