@@ -94,6 +94,7 @@ const donations = {
             102,
             94.5,
             97,
+            285.27, // Sessions hosted by Felix (9, 12, 16)
         ]
     }
 }
