@@ -96,7 +96,7 @@ const donations = {
             97,
             285.27, // Sessions hosted by Felix (9, 12, 16)
             185.5, // Nov 22 (Felix)
-            43, // PayPal
+            53, // PayPal
             40, // Frauke's contributions 
             70, // Felix's contributions 
         ]
