@@ -99,6 +99,7 @@ const donations = {
             53, // PayPal
             40, // Frauke's contributions 
             70, // Felix's contributions 
+            133.2,
         ]
     }
 }
