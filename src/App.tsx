@@ -103,7 +103,9 @@ const donations = {
             115.6,
             14.4, // extra from Felix 
         ],
-        Dec: [],
+        Dec: [
+            159.05,
+        ],
     }
 }
 
