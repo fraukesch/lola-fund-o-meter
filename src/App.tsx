@@ -105,6 +105,7 @@ const donations = {
         ],
         Dec: [
             159.05,
+            134,
         ],
     }
 }
