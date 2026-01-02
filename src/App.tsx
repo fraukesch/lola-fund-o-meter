@@ -111,6 +111,7 @@ const donations = {
             30, // from Frauke 
             30, // from Felix
             138,
+            28, // PayPal
         ],
     }
 }
