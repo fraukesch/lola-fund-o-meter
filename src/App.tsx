@@ -156,7 +156,7 @@ function App() {
             </Year>
 
             <Year year='2026'>
-                <Month name='January' sum={accumulateMonth(donations['2026'].Jan)} sundays={5} wednesdays={0}/>
+                <Month name='January' sum={accumulateMonth(donations['2026'].Jan)} sundays={5} wednesdays={0} pricePerHour={75}/>
             </Year>
 
         </Accordion>
