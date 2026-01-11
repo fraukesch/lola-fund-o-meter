@@ -113,6 +113,12 @@ const donations = {
             138,
             28, // PayPal
         ],
+        // balance 2025 Felix: + 384 (pre-payed amounts minus virtual contributions)
+    },
+    '2026': {
+        Jan: [
+            10.43 // plus from Dec minus the deficit from Nov and Oct
+        ]
     }
 }
 
@@ -126,7 +132,7 @@ function App() {
 
         <Heading as='h1' size='lg' mb={2}>Lola Fund-O-Meter</Heading>
 
-        <Accordion allowToggle allowMultiple defaultIndex={[1]}>
+        <Accordion allowToggle allowMultiple defaultIndex={[2]}>
 
             <Year year='2024'>
                 <Month name='October' sum={accumulateMonth(donations['2024'].Oct)} sundays={4} />
@@ -147,6 +153,10 @@ function App() {
                 <Month name='October' sum={accumulateMonth(donations['2025'].Oct)} sundays={4} wednesdays={6} pricePerHour={85}/>
                 <Month name='November' sum={accumulateMonth(donations['2025'].Nov)} sundays={8} wednesdays={1} pricePerHour={75}/>
                 <Month name='December' sum={accumulateMonth(donations['2025'].Dec)} sundays={6} wednesdays={0} pricePerHour={75}/>
+            </Year>
+
+            <Year year='2026'>
+                <Month name='January' sum={accumulateMonth(donations['2026'].Jan)} sundays={5} wednesdays={0}/>
             </Year>
 
         </Accordion>
