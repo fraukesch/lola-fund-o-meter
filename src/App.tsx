@@ -118,7 +118,7 @@ const donations = {
     '2026': {
         Jan: [
             10.43, // plus from Dec minus the deficit from Nov and Oct
-            171.7,
+            179.7,
         ]
     }
 }
