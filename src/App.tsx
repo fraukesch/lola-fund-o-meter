@@ -123,7 +123,9 @@ const donations = {
             45, // non cash
             10, // one Sunday from Felix 
         ],
-        Feb: []
+        Feb: [
+            16.73 // plus from January 
+        ]
     }
 }
 
