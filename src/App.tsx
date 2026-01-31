@@ -120,6 +120,8 @@ const donations = {
             10.43, // plus from Dec minus the deficit from Nov and Oct
             179.7,
             221.6,
+            45, // non cash
+            10, // one Sunday from Felix 
         ]
     }
 }
