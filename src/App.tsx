@@ -127,6 +127,7 @@ const donations = {
             16.73, // plus from January
             10,
             241.5, // two sessions Feb 11, 15
+            125,
         ]
     }
 }
