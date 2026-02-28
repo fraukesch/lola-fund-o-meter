@@ -129,7 +129,8 @@ const donations = {
             241.5, // two sessions Feb 11, 15
             125,
             30, // Felix 
-            20, // Frauke 
+            20, // Frauke
+            122,
         ]
     }
 }
