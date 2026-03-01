@@ -131,6 +131,9 @@ const donations = {
             30, // Felix 
             20, // Frauke
             122,
+        ],
+        Mar: [
+            80.5,
         ]
     }
 }
@@ -171,6 +174,7 @@ function App() {
             <Year year='2026'>
                 <Month name='January' sum={accumulateMonth(donations['2026'].Jan)} sundays={3} wednesdays={0} pricePerHour={75}/>
                 <Month name='Febuary' sum={accumulateMonth(donations['2026'].Feb)} sundays={4} wednesdays={0} pricePerHour={75}/>
+                <Month name='March' sum={accumulateMonth(donations['2026'].Mar)} sundays={9} wednesdays={0} pricePerHour={75}/>
             </Year>
 
         </Accordion>
