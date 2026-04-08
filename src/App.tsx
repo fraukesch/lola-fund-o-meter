@@ -147,7 +147,8 @@ const donations = {
             50, // from Felix
         ],
         Apr: [
-            215.58, // Plus from March decimated by minus from February 
+            215.58, // Plus from March decimated by minus from February
+            245.3,
         ]
     }
 }
