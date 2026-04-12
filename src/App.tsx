@@ -150,6 +150,7 @@ const donations = {
             215.58, // Plus from March decimated by minus from February
             245.3,
             142.12,
+            165,
         ]
     }
 }
