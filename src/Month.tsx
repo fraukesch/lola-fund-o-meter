@@ -10,17 +10,17 @@ export const Month = (
     {
         name,
         sum,
-        sundays,
+        sundays = 4,
         wednesdays = 0,
         pricePerHour = 50,
         sessionsWithHoursAndPrice = [{numberOfSessions: sundays, hours: 2, pricePerHour}, {numberOfSessions: wednesdays, hours: 1.5, pricePerHour}]
     }: {
         name: string,
         sum: number,
-        sundays: number,
+        sundays?: number,
         wednesdays?: number,
         pricePerHour?: number,
-        sessionsWithHoursAndPrice: SessionsWithHoursAndPrice[]
+        sessionsWithHoursAndPrice?: SessionsWithHoursAndPrice[],
     }
 ) => {
     const needed = sessionsWithHoursAndPrice.reduce((acc, it) => it.numberOfSessions * it.hours * it.pricePerHour + acc, 0)
