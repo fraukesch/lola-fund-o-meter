@@ -160,6 +160,7 @@ const donations = {
         ],
         May: [
             128, // Plus from April
+            150,
         ],
     }
 }
