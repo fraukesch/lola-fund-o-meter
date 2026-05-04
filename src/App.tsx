@@ -157,7 +157,10 @@ const donations = {
             44,
             118,
             100, // 50 each from Felix and Frauke
-        ]
+        ],
+        May: [
+            128, // Plus from April
+        ],
     }
 }
 
@@ -198,7 +201,16 @@ function App() {
                 <Month name='January' sum={accumulateMonth(donations['2026'].Jan)} sundays={3} wednesdays={0} pricePerHour={75}/>
                 <Month name='Febuary' sum={accumulateMonth(donations['2026'].Feb)} sundays={4} wednesdays={0} pricePerHour={75}/>
                 <Month name='March' sum={accumulateMonth(donations['2026'].Mar)} sundays={9} wednesdays={0} pricePerHour={75}/>
-                <Month name='April' sum={accumulateMonth(donations['2026'].Apr)} sundays={4} wednesdays={4} pricePerHour={82.5}/>
+                <Month name='April' sum={accumulateMonth(donations['2026'].Apr)} sessionsWithHoursAndPrice={[
+                    {numberOfSessions: 2, hours: 2, pricePerHour: 75}, // Sundays with winter price
+                    {numberOfSessions: 2, hours: 2, pricePerHour: 90}, // Sundays with summer price
+                    {numberOfSessions: 2, hours: 2, pricePerHour: 75}, // Wednesdays with winter price and 2h duration
+                    {numberOfSessions: 3, hours: 1, pricePerHour: 90}, // Wednesdays with summer price and 1h duration
+                ]} sundays={4} wednesdays={4} pricePerHour={82.5}/>
+                <Month name='May' sum={accumulateMonth(donations['2026'].May)} sessionsWithHoursAndPrice={[
+                    {numberOfSessions: 5, hours: 2, pricePerHour: 90}, // Sundays
+                    {numberOfSessions: 4, hours: 1, pricePerHour: 90}, // Wednesdays
+                ]}/>
             </Year>
 
         </Accordion>
