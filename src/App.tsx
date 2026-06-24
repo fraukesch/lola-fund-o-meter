@@ -173,6 +173,7 @@ const donations = {
             24.8, // plus from May
             238.2,
             119,
+            111.5,
         ]
     }
 }
