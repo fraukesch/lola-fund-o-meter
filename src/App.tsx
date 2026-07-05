@@ -178,6 +178,7 @@ const donations = {
         ],
         Jul: [
             108,
+            150,
         ],
     }
 }
