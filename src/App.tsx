@@ -179,8 +179,10 @@ const donations = {
             100, // F&F
         ],
         Jul: [
+            37.5, //plus from June
             108,
             150,
+            40,
         ],
     }
 }
