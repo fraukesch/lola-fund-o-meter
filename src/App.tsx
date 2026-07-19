@@ -243,9 +243,9 @@ function App() {
                     {numberOfSessions: 4, hours: 1, pricePerHour: 90}, // Wednesdays
                 ]}/>
                 <Month name='July' sum={accumulateMonth(donations['2026'].Jul)} sessionsWithHoursAndPrice={[
-                    {numberOfSessions: 6, hours: 2, pricePerHour: 90}, // Sundays
+                    {numberOfSessions: 5, hours: 2, pricePerHour: 90}, // Sundays
                     {numberOfSessions: 2, hours: 1, pricePerHour: 90}, // Wednesdays
-                    {numberOfSessions: 1, hours: 1.5, pricePerHour: 90},
+                    {numberOfSessions: 2, hours: 1.5, pricePerHour: 90},
                 ]}/>
             </Year>
 
