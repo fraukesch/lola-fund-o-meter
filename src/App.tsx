@@ -195,6 +195,7 @@ const donations = {
         Aug: [
             164,
             128.3,
+            246,
         ]
     }
 }
