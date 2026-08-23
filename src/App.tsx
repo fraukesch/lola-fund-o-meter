@@ -191,6 +191,7 @@ const donations = {
             133,
             140.11,
             16,
+            120, // Felix and Frauke
         ],
         Aug: [
             164,
