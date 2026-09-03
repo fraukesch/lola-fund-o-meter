@@ -204,6 +204,9 @@ const donations = {
             150,
             66, // PayPal
             120, // Felix and Frauke 
+        ],
+        Sep: [
+            100,
         ]
     }
 }
@@ -268,6 +271,10 @@ function App() {
                     {numberOfSessions: 5, hours: 2, pricePerHour: 90}, // Sundays
                     {numberOfSessions: 1, hours: 1, pricePerHour: 90}, // Wednesdays
                     {numberOfSessions: 3, hours: 1.5, pricePerHour: 90},
+                ]}/>
+                <Month name='September' sum={accumulateMonth(donations['2026'].Sep)} sessionsWithHoursAndPrice={[
+                    {numberOfSessions: 4, hours: 2, pricePerHour: 90}, // Sundays
+                    {numberOfSessions: 5, hours: 1, pricePerHour: 90}, // Wednesdays
                 ]}/>
             </Year>
 
