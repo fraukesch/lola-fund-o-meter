@@ -201,6 +201,9 @@ const donations = {
             104,
             124.5,
             153,
+            150,
+            66, // PayPal
+            120, // Felix and Frauke 
         ]
     }
 }
