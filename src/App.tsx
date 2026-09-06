@@ -207,6 +207,7 @@ const donations = {
         ],
         Sep: [
             100,
+            134,
         ]
     }
 }
