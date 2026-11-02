@@ -225,8 +225,12 @@ const donations = {
             80,
             122.05,
             112,
-            120, // F&F
+            60, // from Frauke
+            30 // from Felix
         ],
+        Nov: [
+            210.8,
+        ]
     }
 }
 
@@ -299,6 +303,10 @@ function App() {
                     {numberOfSessions: 1, hours: 2, pricePerHour: 90}, // last Sunday with Summer price
                     {numberOfSessions: 3, hours: 2, pricePerHour: 63}, // Sundays
                     {numberOfSessions: 4, hours: 1, pricePerHour: 63}, // Wednesdays
+                ]}/>
+                <Month name='November' sum={accumulateMonth(donations['2026'].Nov)} sessionsWithHoursAndPrice={[
+                    {numberOfSessions: 5, hours: 2, pricePerHour: 63}, // Sundays
+                    {numberOfSessions: 4, hours: 1.5, pricePerHour: 63}, // Wednesdays
                 ]}/>
             </Year>
 
