@@ -230,6 +230,7 @@ const donations = {
         ],
         Nov: [
             210.8,
+            91.1,
         ]
     }
 }
